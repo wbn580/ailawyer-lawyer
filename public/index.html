@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AILawyer — plain-language answers to common legal questions</title>
+<meta name="description" content="Ask a legal question in plain language. AILawyer explains everyday issues on tenancy, work, family, immigration and consumer rights across the US, UK, EU, Australia, Canada and China. Experimental tool — not a lawyer, not legal advice.">
+<link rel="canonical" href="https://ailawyer.lawyer/">
+<link rel="alternate" hreflang="en" href="https://ailawyer.lawyer/">
+<link rel="alternate" hreflang="zh" href="https://ailawyer.lawyer/zh/">
+<link rel="alternate" hreflang="x-default" href="https://ailawyer.lawyer/">
+<meta property="og:title" content="AILawyer — plain-language legal answers">
+<meta property="og:description" content="Ask in plain language. It figures out which country's rules apply. Not a lawyer, not legal advice.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ailawyer.lawyer/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=Newsreader:ital,opsz,wght@0,18..72,400;0,18..72,500;0,18..72,600;1,18..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/app.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"AILawyer","url":"https://ailawyer.lawyer/","applicationCategory":"LegalService","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Experimental plain-language legal information tool. Not a law firm; does not provide legal advice.","disclaimer":"AILawyer is not a lawyer and does not provide legal advice."}
+</script>
+</head>
+<body>
+<header class="nav on-dark" id="nav">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="mark"><i class="ti ti-scale"></i></span>ailawyer<span class="dim">.lawyer</span></a>
+    <nav class="nav-links">
+      <a class="hide-sm" href="/how-it-works.html">How it works</a>
+      <a class="hide-sm" href="/guides/">Legal guides</a>
+      <span class="lang"><a class="on" href="/">EN</a><a href="/zh/">中文</a></span>
+      <a class="nav-cta hide-sm" href="#ask">Ask a question</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="ask">
+    <div class="wrap">
+      <div class="hero-head">
+        <span class="eyebrow"><span class="d"></span> Experimental peer-help tool · not a law firm</span>
+        <h1>Understand your legal question<br><em>in plain language</em></h1>
+        <p class="lede">Just ask. Tenancy, work, family, immigration or consumer rights.<br>General information only, never a substitute for a licensed lawyer.</p>
+      </div>
+      <div id="assistant-inline"></div>
+      <div class="hero-chips" id="chips"></div>
+      <div class="hero-trust">
+        <span><i class="ti ti-check"></i> No sign-up, no forms</span>
+        <span><span class="tk"></span> Answers in your language</span>
+        <span><i class="ti ti-world"></i> 6 jurisdictions</span>
+        <span><span class="tk"></span> We don't ask for your details</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="disc-bar"><div class="wrap"><i class="ti ti-alert-triangle"></i> Not a lawyer, and not legal advice — an experimental tool for general information and mutual help only.</div></div>
+
+<!-- coverage -->
+<section>
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="sec-kicker">Coverage</span>
+      <h2>Rules that actually apply where you are</h2>
+      <p>Legal questions rarely have one global answer. AILawyer reasons across six jurisdictions and tells you which one it's using — or asks, if your message doesn't make it clear.</p>
+    </div>
+    <div class="juris reveal">
+      <div class="j"><div class="code">US</div><div class="nm">United States</div></div>
+      <div class="j"><div class="code">UK</div><div class="nm">United Kingdom</div></div>
+      <div class="j"><div class="code">EU</div><div class="nm">European Union</div></div>
+      <div class="j"><div class="code">AU</div><div class="nm">Australia</div></div>
+      <div class="j"><div class="code">CA</div><div class="nm">Canada</div></div>
+      <div class="j"><div class="code">CN</div><div class="nm">China</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- topics -->
+<section class="sec-tint">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">What you can ask about</span>
+      <h2>Everyday law, explained without the jargon</h2>
+      <p>The questions most people actually have — deposits, dismissal, refunds, visas — answered as a clear starting point with sensible next steps.</p>
+    </div>
+    <div class="topics">
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('My landlord won\'t return my deposit — what can I do?')">
+        <span class="ic"><i class="ti ti-home"></i></span>
+        <h3>Tenancy &amp; housing</h3>
+        <p>Deposits, repairs, notice periods, evictions and what a landlord can and can't do.</p>
+        <div class="tags"><span>Deposits</span><span>Repairs</span><span>Eviction</span></div>
+      </button>
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('Was I unfairly dismissed from my job?')">
+        <span class="ic"><i class="ti ti-briefcase"></i></span>
+        <h3>Work &amp; employment</h3>
+        <p>Unfair dismissal, final pay, contracts, notice and workplace rights.</p>
+        <div class="tags"><span>Dismissal</span><span>Final pay</span><span>Contracts</span></div>
+      </button>
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('What are the basics of divorce and child support?')">
+        <span class="ic"><i class="ti ti-heart"></i></span>
+        <h3>Family &amp; relationships</h3>
+        <p>Divorce basics, child support, custody arrangements and where to start.</p>
+        <div class="tags"><span>Divorce</span><span>Child support</span><span>Custody</span></div>
+      </button>
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('What are the basics of applying for a visa?')">
+        <span class="ic"><i class="ti ti-plane"></i></span>
+        <h3>Immigration &amp; visas</h3>
+        <p>Visa categories, common requirements, timelines and what the terms mean.</p>
+        <div class="tags"><span>Visas</span><span>Residency</span><span>Documents</span></div>
+      </button>
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('A shop refused my refund on a faulty item — what are my rights?')">
+        <span class="ic"><i class="ti ti-shopping-cart"></i></span>
+        <h3>Consumer &amp; money</h3>
+        <p>Refunds, warranties, faulty goods, chargebacks and dodgy contracts.</p>
+        <div class="tags"><span>Refunds</span><span>Warranties</span><span>Contracts</span></div>
+      </button>
+      <button class="topic reveal" type="button" onclick="AILAWYER_ASK('How do I contest a traffic fine?')">
+        <span class="ic"><i class="ti ti-car"></i></span>
+        <h3>Traffic &amp; fines</h3>
+        <p>Contesting tickets, penalty notices, appeals and deadlines that matter.</p>
+        <div class="tags"><span>Tickets</span><span>Appeals</span><span>Deadlines</span></div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- popular guides -->
+<section>
+  <div class="wrap">
+    <div class="sec-head row reveal">
+      <div>
+        <span class="sec-kicker">Legal guides</span>
+        <h2>Read up before you ask</h2>
+      </div>
+      <a class="sec-more" href="/guides/">Browse all guides &rarr;</a>
+    </div>
+    <div class="glist reveal">
+      <a class="gitem" href="/guides/security-deposit-refund-us.html"><span class="ic"><i class="ti ti-home"></i></span><div><h3>Getting your security deposit back</h3><p>Deadlines, itemised deductions, demand letters and small claims.</p><div class="meta">US · UK · AU</div></div></a>
+      <a class="gitem" href="/guides/unfair-dismissal-employment-rights-uk.html"><span class="ic"><i class="ti ti-briefcase"></i></span><div><h3>Unfair dismissal &amp; final pay</h3><p>What counts as unfair, notice, and the steps to challenge it.</p><div class="meta">UK · EU · CA</div></div></a>
+      <a class="gitem" href="/guides/visa-immigration-basics-ca.html"><span class="ic"><i class="ti ti-plane"></i></span><div><h3>Visa &amp; immigration basics</h3><p>Categories, requirements and how the process usually works.</p><div class="meta">US · CA · AU</div></div></a>
+      <a class="gitem" href="/guides/consumer-refunds-warranties-eu.html"><span class="ic"><i class="ti ti-shopping-cart"></i></span><div><h3>Consumer refunds &amp; warranties</h3><p>Your rights on faulty goods, returns and repair-or-replace.</p><div class="meta">EU · CN · US</div></div></a>
+      <a class="gitem" href="/guides/traffic-ticket-appeal-us.html"><span class="ic"><i class="ti ti-car"></i></span><div><h3>Contesting a traffic fine</h3><p>When it's worth appealing, how to do it and the deadlines.</p><div class="meta">US · UK · AU</div></div></a>
+      <a class="gitem" href="/guides/small-claims-court-us.html"><span class="ic"><i class="ti ti-gavel"></i></span><div><h3>Using small claims court</h3><p>Low-cost, no-lawyer disputes — filing, evidence and hearings.</p><div class="meta">US · UK · AU</div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- how it works -->
+<section class="sec-tint">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="sec-kicker">How it works</span>
+      <h2>Three steps, no forms</h2>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><div class="n">1</div><h3>Ask in your own words</h3><p>No forms, no sign-up. Describe your situation in any language, however messy.</p></div>
+      <div class="step"><div class="n">2</div><h3>The right rules, inferred</h3><p>It works out which country's law applies — and asks you directly if it isn't clear.</p></div>
+      <div class="step"><div class="n">3</div><h3>Plain-language guidance</h3><p>A clear starting point, practical next steps, and when it's time to see a real lawyer.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- trust / difference -->
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">Why it's different</span>
+      <h2>Built to inform, not to harvest</h2>
+      <p>A calm, honest tool — clear about what it is and, just as importantly, what it isn't.</p>
+    </div>
+    <div class="feats reveal">
+      <div class="feat"><span class="fi"><i class="ti ti-lock"></i></span><div><h3>No forms, no sign-up</h3><p>We don't ask for your name, email or details to answer you. Nothing to sign up for.</p></div></div>
+      <div class="feat"><span class="fi"><i class="ti ti-world"></i></span><div><h3>Jurisdiction-aware</h3><p>Every answer names the country's rules it's using, so you're not misled by the wrong system.</p></div></div>
+      <div class="feat"><span class="fi"><i class="ti ti-message-circle"></i></span><div><h3>Plain language</h3><p>No Latin, no jargon walls. Just what the situation means and what you can reasonably do next.</p></div></div>
+      <div class="feat"><span class="fi"><i class="ti ti-alert-triangle"></i></span><div><h3>Honest about limits</h3><p>Every answer carries a disclaimer and tells you when a real, licensed lawyer is the right call.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec-tint">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="sec-kicker">Good to know</span>
+      <h2>Questions about the tool</h2>
+    </div>
+    <div class="qa reveal">
+      <details><summary>Is this real legal advice?</summary><p>No. AILawyer is an experimental tool that gives general, plain-language information. It is not a lawyer and using it doesn't create a lawyer–client relationship. For anything important, confirm with a licensed lawyer or an official source.</p></details>
+      <details><summary>Do I need to sign up or pay?</summary><p>Neither. There's no account, no form and no fee. You can just start typing your question.</p></details>
+      <details><summary>Which countries does it cover?</summary><p>Six jurisdictions: the United States, United Kingdom, European Union, Australia, Canada and China. If your message doesn't make the location clear, the tool will ask.</p></details>
+      <details><summary>Do you store my questions or personal details?</summary><p>The tool doesn't ask for personal details to answer you. Please avoid pasting sensitive identifiers — you don't need to share them to get a useful starting point.</p></details>
+      <details><summary>Can it help with an urgent or serious matter?</summary><p>It can help you understand the basics, but it's not a substitute for professional help. For deadlines, court dates, arrests or anything high-stakes, speak to a licensed lawyer or the relevant official body right away.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>Have a question on your mind?</h2>
+      <p>Describe it in a sentence or two. You'll get a plain-language starting point in seconds — no sign-up, no details required.</p>
+      <button class="btn btn-primary" type="button" onclick="AILAWYER_ASK('')"><i class="ti ti-scale"></i> Ask a legal question</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div class="fcol">
+        <a class="brand" href="/"><span class="mark"><i class="ti ti-scale"></i></span>ailawyer<span class="dim">.lawyer</span></a>
+        <p class="fbrand">An experimental, no-sign-up tool for general legal information and mutual help. Not a law firm.</p>
+        <div class="cov"><span class="k">Coverage</span><span class="pill">US</span><span class="pill">UK</span><span class="pill">EU</span><span class="pill">AU</span><span class="pill">CA</span><span class="pill">CN</span></div>
+      </div>
+      <div class="fcol">
+        <h4>Explore</h4>
+        <a href="/">Ask a question</a>
+        <a href="/guides/">Legal guides</a>
+        <a href="/how-it-works.html">How it works</a>
+      </div>
+      <div class="fcol">
+        <h4>Popular guides</h4>
+        <a href="/guides/security-deposit-refund-us.html">Security deposits</a>
+        <a href="/guides/unfair-dismissal-employment-rights-uk.html">Unfair dismissal</a>
+        <a href="/guides/visa-immigration-basics-ca.html">Visa basics</a>
+      </div>
+      <div class="fcol">
+        <h4>About</h4>
+        <a href="/disclaimer.html">Disclaimer</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/zh/">中文</a>
+      </div>
+    </div>
+    <p class="fine">AILawyer is <strong>not a lawyer</strong> and does not provide legal advice. Nothing here creates a lawyer–client relationship. Laws change and vary by country, state and region; information may be incomplete or out of date. Always confirm important matters with a licensed lawyer or an official source. The tool does not ask for personal details to answer you. See the <a href="/disclaimer.html">full disclaimer</a>. © <span id="yr"></span> ailawyer.lawyer</p>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top"><i class="ti ti-arrow-up"></i></button>
+
+<script src="/assets/assistant.js" defer data-no-bubble="1" data-site="ailawyer-lawyer" data-lang="en" data-color="#111827" data-accent="#c89b3c"></script>
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+/* suggestion chips */
+(function(){
+  var chips=["Landlord won't return my deposit","Was I unfairly dismissed?","How do I contest a traffic fine?","What is an NDA?","Refund refused on a faulty item"];
+  var box=document.getElementById('chips');
+  chips.forEach(function(t){var b=document.createElement('button');b.className='chip';b.type='button';b.innerHTML='<i class="ti ti-message-2"></i>'+t;b.onclick=function(){window.AILAWYER_ASK(t);};box.appendChild(b);});
+})();
+/* nav scroll state */
+(function(){var n=document.getElementById('nav');function s(){n.classList.toggle('is-scrolled',window.scrollY>16);}s();addEventListener('scroll',s,{passive:true});})();
+/* back to top */
+(function(){var t=document.getElementById('totop');function s(){t.classList.toggle('show',window.scrollY>600);}addEventListener('scroll',s,{passive:true});t.onclick=function(){scrollTo({top:0,behavior:'smooth'});};})();
+/* scroll reveal */
+(function(){var els=[].slice.call(document.querySelectorAll('.reveal'));if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});return;}var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{threshold:.12,rootMargin:'0px 0px -8% 0px'});els.forEach(function(e){io.observe(e);});})();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"ae0ee922d2044dc78745a1c59718f4d2","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,414 @@
+{
+  "evidence_batch": "scraped-data/ailawyer-lawyer-full-live/20260730-0154",
+  "policy": "missing-only; refuse different existing files",
+  "files": [
+    {
+      "path": "public/assets/app.css",
+      "bytes": 34504,
+      "sha256": "323547a9c2ab22a52a92205d5456aaebb63399d187df22ce0c4953ae3d8b0cef",
+      "state": "derived-preserved"
+    },
+    {
+      "path": "public/assets/assistant.js",
+      "bytes": 11873,
+      "sha256": "0ebd70de9f723081fae2c414aaff90897f561df9e07afdabc433cbd574477377",
+      "state": "identical"
+    },
+    {
+      "path": "public/disclaimer.html",
+      "bytes": 3927,
+      "sha256": "72e6dd15054b00fa1124161d779d49ebc2edff040a62d9f7b779889ccf407a8a",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/consumer-refunds-warranties-au.html",
+      "bytes": 9966,
+      "sha256": "cc7705e932703d04a33f2340b2d0854f33ae2ca7eca065f52de77c1c52fbcc90",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/consumer-refunds-warranties-ca.html",
+      "bytes": 9345,
+      "sha256": "2b2f49cb18c7d6b61aa0e6678e2ae3a510be13dd074c5843a64a78cea60ef7b2",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/consumer-refunds-warranties-eu.html",
+      "bytes": 9409,
+      "sha256": "df96c67abbefbc97a337804b804c703a08341ae37499cfcfb2a84c7ec253d492",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/consumer-refunds-warranties-uk.html",
+      "bytes": 9197,
+      "sha256": "acdccf7ad1e1c2a9b05e664929499e16d246340873d0a9d965a28262e8a8390e",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/consumer-refunds-warranties-us.html",
+      "bytes": 8609,
+      "sha256": "a99dd875115406eb13e307eea059b7150efce39db51b98d858014b606614da15",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/divorce-child-support-basics-au.html",
+      "bytes": 9971,
+      "sha256": "e262cd874188200255e3357bb53275698315bf0b185c9c7a9ac504826964d782",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/divorce-child-support-basics-ca.html",
+      "bytes": 9806,
+      "sha256": "3a496fb41d4f9242ed47e0ed97da293550d1eba8365ef069e30a4c7ba64ae863",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/divorce-child-support-basics-eu.html",
+      "bytes": 10111,
+      "sha256": "88559d42ba5811a5f2b9904cbe46d3ecf3e4c2a511ca192928fc040437231e06",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/divorce-child-support-basics-uk.html",
+      "bytes": 9925,
+      "sha256": "2842d131eff9b3a194ff73add9914696d6d75f7c40e374895656ae7bb792716d",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/divorce-child-support-basics-us.html",
+      "bytes": 9423,
+      "sha256": "c6100284a04a5392d0a299df311bba35309f0ddff5fb4dd9d2e2252fb01c5fe6",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/index.html",
+      "bytes": 13504,
+      "sha256": "a50517b9b65a2fb86e0e621eaaf8831375921858f1e05da394577104c82f6b75",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/inheritance-basics-eu.html",
+      "bytes": 10537,
+      "sha256": "282fc2d76ff4582f85f0c4214c7afec4729508a8e584a67dd303c2fe2c0d757d",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-au.html",
+      "bytes": 9841,
+      "sha256": "acd0f53b953f78bbb7e8393b121b39f651351541927a7af9c7030d328e83857d",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-ca.html",
+      "bytes": 9526,
+      "sha256": "0c784ab106a42f60489dd620e80002818ccd02dd9ecb61874d48600bcaf95e10",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-cn.html",
+      "bytes": 9465,
+      "sha256": "bb49fddc84fd558b4dc762d212ee6f2be79393d8e6dbbb27edbcf6b9e775d1dc",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-eu.html",
+      "bytes": 9150,
+      "sha256": "e338fdb2355bc818cac7ac437de0b1387f548df985d76877e6b0b49c6d97a11d",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-uk.html",
+      "bytes": 8611,
+      "sha256": "3ede7cb17f81a9f65e4efd603239d2163e4d4d7b474f05f9e85525908012aefe",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/security-deposit-refund-us.html",
+      "bytes": 7147,
+      "sha256": "5767f2d8bb18554ee34fc38604d0c8d7020df4bbdab45e5f8f6319fa8acb7774",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/small-claims-court-au.html",
+      "bytes": 10307,
+      "sha256": "28fe36f3fc2bcb068b9703566f81a63537285aee99a94982a92835986a7b4255",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/small-claims-court-ca.html",
+      "bytes": 9135,
+      "sha256": "9fefc59ec621d14006ee483d92d67dfab6a2706a0e6fb300d1a07a8f936c4962",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/small-claims-court-us.html",
+      "bytes": 9007,
+      "sha256": "d42cd383ac4190dc72cc41bc549739b631be2cc10d84540dea36581127b8dbb2",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/small-claims-procedure-eu.html",
+      "bytes": 9880,
+      "sha256": "ae088f4fcc0068452e026b8e288950930076ab0539da3a41b41e73ec8924e15d",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/traffic-fine-appeal-au.html",
+      "bytes": 9944,
+      "sha256": "64f8040e8ae54bd7b6773a3d0ea3c85a2bdec0cb658c0b080ef3b670f6a0cba3",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/traffic-fine-appeal-eu.html",
+      "bytes": 10004,
+      "sha256": "71f6c0214d34984dff693cd80f37f6cae1b7df66fe004334b47b835dce568f89",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/traffic-ticket-appeal-ca.html",
+      "bytes": 9183,
+      "sha256": "a48ec0a610099b5e18e9ca291ce26765f705023ac65eeeee895dff671060a1f3",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/traffic-ticket-appeal-us.html",
+      "bytes": 8744,
+      "sha256": "110f2b46d045f770d4e54af088ac9de9d839e4d6ccc60826ff0385c8ba3812e1",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/traffic-ticket-pcn-appeal-uk.html",
+      "bytes": 9208,
+      "sha256": "3fc32a07adca423d3861f338f09f28b8047ca93d2102d309e59beeeb2956f6a4",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/unfair-dismissal-employment-rights-ca.html",
+      "bytes": 9590,
+      "sha256": "8dc4f80b1515eb265275f2aeb247280ef3f78ec05a82a821f0d31e7c996f2ec1",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/unfair-dismissal-employment-rights-eu.html",
+      "bytes": 9298,
+      "sha256": "814f22960abc206b2e615f15083e6c47c3384f9c12f89a4772b96dfa7bf37dbb",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/unfair-dismissal-employment-rights-uk.html",
+      "bytes": 9468,
+      "sha256": "6c18b87c517f12b40320a61b22fde2e58b0c185d034b0c1936daa6cf5fcee76f",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/unfair-dismissal-employment-rights-us.html",
+      "bytes": 8588,
+      "sha256": "bff9e94ef94b77e9f72f08590f4f1a6194c798b22499546c0cc19050b31ff88b",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/unfair-dismissal-fair-work-au.html",
+      "bytes": 10035,
+      "sha256": "4624550d26e8f73ec4e95126ff9dec48c80f9c97f32c4a7ef609563e7c1f48ab",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/visa-immigration-basics-au.html",
+      "bytes": 10293,
+      "sha256": "4d49761fa8cf27886f04494db77a4a2007d98982ac0e6460312a66940b9c1f09",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/visa-immigration-basics-ca.html",
+      "bytes": 9694,
+      "sha256": "a755c47e4497ced7423af118e076e67d1402a8ec0a4ffec14b24383d9e95d1a7",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/visa-immigration-basics-eu.html",
+      "bytes": 10287,
+      "sha256": "e04eff2346d65d7f1e0a414fc3735fa7e082c5fad41f11c46de9cf56e26e8c4f",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/visa-immigration-basics-us.html",
+      "bytes": 9173,
+      "sha256": "f38fa90d7f4dcc7f2099b157fc180746f0c6ed6422cab937f5694b8d9c4ea098",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/wills-inheritance-basics-au.html",
+      "bytes": 10625,
+      "sha256": "da1e7795c1209b9777a86f5fc8cadc6183fe4306e1d00c95b00a05a4264caa82",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/wills-inheritance-basics-ca.html",
+      "bytes": 10582,
+      "sha256": "e2b72f00da8fcb68a9e7738e67069663628d2444b9317d905043c0b212567a46",
+      "state": "identical"
+    },
+    {
+      "path": "public/guides/wills-inheritance-basics-us.html",
+      "bytes": 9462,
+      "sha256": "3f8637f7a781bdee83ace8f2a49ab74a509b4bb9293052275186c511351327a2",
+      "state": "identical"
+    },
+    {
+      "path": "public/how-it-works.html",
+      "bytes": 6397,
+      "sha256": "334fac51bc9f989b2d2927de8d385f616efb8829e1c3b0c59a501f1ba62e3721",
+      "state": "identical"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 17501,
+      "sha256": "548cab8936d794905c2b453c7172122e49e0aa4c869cd77ded312fdacd273589",
+      "state": "identical"
+    },
+    {
+      "path": "public/privacy.html",
+      "bytes": 3693,
+      "sha256": "e5c7164c17df2f5f48481d2086b5282d52f660bd7233a02752eeb3717ca1c886",
+      "state": "identical"
+    },
+    {
+      "path": "public/robots.txt",
+      "bytes": 69,
+      "sha256": "382fb9a8f2939c49527740a5b7c379572ffdf566a5f695dc6a71de8396f1ef63",
+      "state": "identical"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "bytes": 7603,
+      "sha256": "01ed9ef9188481545af9cc61587a605803a0b6da6912452710a5484d293228b5",
+      "state": "derived-preserved"
+    },
+    {
+      "path": "public/zh/disclaimer.html",
+      "bytes": 4087,
+      "sha256": "9a19f7c9ecefbe32533625b58972e6b5b08db19170ce287f47e3794d838863c9",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/consumer-refunds-warranties-ca.html",
+      "bytes": 8597,
+      "sha256": "365fdae2136006099f86882ef682aab118411b6880f9dea8c9819dfa00863699",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/consumer-refunds-warranties-us.html",
+      "bytes": 8179,
+      "sha256": "2bd29a268aa262c32d684c0730549d906865a6a779ad45d328dd51899bf57bf1",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/divorce-child-support-basics-ca.html",
+      "bytes": 8964,
+      "sha256": "03c144b18e78c45a4c47f2fcdd39929c717e75142722779baaea11d17c03dac5",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/divorce-child-support-basics-us.html",
+      "bytes": 8604,
+      "sha256": "c42640947cd1f016ad8533c11cd397cbd046e1a1098bf4542a123c2170928fe0",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/index.html",
+      "bytes": 8696,
+      "sha256": "dc4f0248b0a3990dffd4f3c11d5c2b2d832bf2d1bc975d26bde7d7f406937e17",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/security-deposit-refund-ca.html",
+      "bytes": 9192,
+      "sha256": "b8589a7b8d800a5162d4b5728c7aa0ff87fed545ceef833df375e0cc7333cc33",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/security-deposit-refund-cn.html",
+      "bytes": 8701,
+      "sha256": "d2737e9cc7a6c74e035b19a862ff33399f8d7652f778080ba4640ccdc2326e65",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/small-claims-court-ca.html",
+      "bytes": 8600,
+      "sha256": "bee3dab5c99600c78885edab95e5ab4fd639898bd0e1e9f4726682a7b98aae0e",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/small-claims-court-us.html",
+      "bytes": 8439,
+      "sha256": "02a85ddac588e48c86bb51c847bf754a92537346154d8afc2e831a940c26f0db",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/traffic-ticket-appeal-ca.html",
+      "bytes": 8399,
+      "sha256": "4c567fde8d43f7b75774cf51a44d574363a0f057f0efec569cb791cc4e18e15a",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/traffic-ticket-appeal-us.html",
+      "bytes": 8031,
+      "sha256": "a4cbab68fca1e19f085068d0fe0f78219f9d69ac61b61fac9e2726f2c4036182",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/unfair-dismissal-employment-rights-ca.html",
+      "bytes": 8783,
+      "sha256": "8bb7bdec839c18d06e9c9a142d11ad6a2bf88373c5d1b0bfdbbbba93c07401f9",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/unfair-dismissal-employment-rights-us.html",
+      "bytes": 7967,
+      "sha256": "3dbb35ca806c12e65e849a219833ced8181da8a32e7cb022de56ee7dcffc6699",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/visa-immigration-basics-ca.html",
+      "bytes": 8953,
+      "sha256": "103bc73944329d114c8463d0cab7ff0e22af808c106bd30195dfaabf23b0b889",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/visa-immigration-basics-us.html",
+      "bytes": 8247,
+      "sha256": "a6750dc101078ac81ca0ff83783532d982a30c500eaea6b255d0f9af04ef35cd",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/wills-inheritance-basics-ca.html",
+      "bytes": 9696,
+      "sha256": "71b4fbd500ef231d0aaa6fc8aff8c82ef9c050ae87834cdb68035ccdbc19878b",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/guides/wills-inheritance-basics-us.html",
+      "bytes": 8954,
+      "sha256": "9d89c5a36f03940588f57fe1de27573e7310f79965e813764b0acc32704129f6",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/how-it-works.html",
+      "bytes": 6367,
+      "sha256": "3393a50e7ae21348e195e2727befe785dd25043f08ee483e4910e004cbca4be7",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/index.html",
+      "bytes": 17351,
+      "sha256": "ccb5c6a1b87f9e4d3629187ed5dff82720f7fd44c018e25a4ea2bfbc34a98009",
+      "state": "identical"
+    },
+    {
+      "path": "public/zh/privacy.html",
+      "bytes": 3897,
+      "sha256": "fd9576798d52cefb122a6d0a6cfa15a0be1aa08ac5469b7e19ba281d875ac5de",
+      "state": "identical"
+    }
+  ]
+}
