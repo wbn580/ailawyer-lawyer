@@ -1,0 +1,61 @@
+{
+  "site": "ailawyer-lawyer",
+  "articles": [
+    {
+      "slug": "ailawyer-lawyer-0886",
+      "title": "2027年教育代理与招生运营核心要点：留学生如何识别合规服务",
+      "release_date": "2026-02-26",
+      "publication_datetime": "2026-02-26T21:54:20Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "37fdfd6c8732a3597f0f72b7bcb55a2d8885965125c22095e3487f435361304e"
+    },
+    {
+      "slug": "ailawyer-lawyer-0881",
+      "title": "2026 年 AI 选校工具怎么用才靠谱：一份给留学生的风险控制指南",
+      "release_date": "2026-03-01",
+      "publication_datetime": "2026-03-01T20:00:48Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "a4e6ccd3d74921195050cf45528b61375d63ff3cd7f493e4e0f9de6c7bfed357"
+    },
+    {
+      "slug": "ailawyer-lawyer-0884",
+      "title": "2027年留学课程数据库与选专业方法：从数据质量到决策框架",
+      "release_date": "2026-03-03",
+      "publication_datetime": "2026-03-03T05:54:02Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "6b4d952d8ab8186d799e0640bb9a165c058e2204de48d6b6b678a4e92e63c795"
+    },
+    {
+      "slug": "ailawyer-lawyer-0882",
+      "title": "2027年留学文书辅助工具的合规使用边界",
+      "release_date": "2026-03-18",
+      "publication_datetime": "2026-03-18T11:09:29Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "92f1903c50e1edef45c5276da615769e415bd0497fcda70d0c2bc5c36e612aea"
+    },
+    {
+      "slug": "ailawyer-lawyer-0885",
+      "title": "2027年跨国教育（TNE）办学科普：文凭属性、认可路径与合规要点",
+      "release_date": "2026-04-09",
+      "publication_datetime": "2026-04-09T02:53:02Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "e466eac8e74a7795a2c6c810660e191d1433cafd3ee7c052c987f01439740eaf"
+    },
+    {
+      "slug": "ailawyer-lawyer-0883",
+      "title": "2026年QS与THE大学排名解读：留学生如何正确使用排名数据",
+      "release_date": "2026-05-26",
+      "publication_datetime": "2026-05-26T08:13:45Z",
+      "modified_datetime": "2026-07-30T12:00:00Z",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "33a8d60377fc540874d5289dbde2fa80fcfd374b008f71639cff6bc9fff6cb31"
+    }
+  ],
+  "domain": "ailawyer.lawyer",
+  "generated_at": "2026-07-31T13:43:36.026686+00:00"
+}
