@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "sanitize": "node scripts/sanitize-guides.mjs",
+    "build": "npm run sanitize && astro build && pagefind --site dist",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",

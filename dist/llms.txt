@@ -1,0 +1,76 @@
+# AILawyer / AI Lawyer Bench
+
+> Plain-language, evidence-first general legal information across the United States, United Kingdom, European Union, Australia, Canada and China. Not a law firm and not legal advice.
+
+## Identity and boundaries
+- Public product: AILawyer at ailawyer.lawyer
+- Editorial handle: AI Lawyer Bench
+- The assistant organises jurisdiction, facts, evidence and official routes.
+- It does not provide personalised legal advice, predict outcomes, calculate deadlines or fees, draft formal documents, collect contact details or retain chat content.
+- Current rules must be verified with the responsible official body or a qualified local lawyer.
+
+## Public pages
+- AILawyer — plain-language answers to common legal questions: https://ailawyer.lawyer/
+- Disclaimer — AILawyer: https://ailawyer.lawyer/disclaimer.html
+- Legal guides — plain-language explainers across 6 jurisdictions | AILawyer: https://ailawyer.lawyer/guides/
+- Consumer refunds and warranties: a safe starting point — AILawyer: https://ailawyer.lawyer/guides/consumer-refunds-warranties-au.html
+- Consumer refunds and warranties: a safe starting point — AILawyer: https://ailawyer.lawyer/guides/consumer-refunds-warranties-ca.html
+- Consumer refunds and warranties: a safe starting point — AILawyer: https://ailawyer.lawyer/guides/consumer-refunds-warranties-eu.html
+- Consumer refunds and warranties: a safe starting point — AILawyer: https://ailawyer.lawyer/guides/consumer-refunds-warranties-uk.html
+- Consumer refunds and warranties: a safe starting point — AILawyer: https://ailawyer.lawyer/guides/consumer-refunds-warranties-us.html
+- Divorce and child arrangements: what to organise first — AILawyer: https://ailawyer.lawyer/guides/divorce-child-support-basics-au.html
+- Divorce and child arrangements: what to organise first — AILawyer: https://ailawyer.lawyer/guides/divorce-child-support-basics-ca.html
+- Divorce and child arrangements: what to organise first — AILawyer: https://ailawyer.lawyer/guides/divorce-child-support-basics-eu.html
+- Divorce and child arrangements: what to organise first — AILawyer: https://ailawyer.lawyer/guides/divorce-child-support-basics-uk.html
+- Divorce and child arrangements: what to organise first — AILawyer: https://ailawyer.lawyer/guides/divorce-child-support-basics-us.html
+- Wills and inheritance: an evidence-first checklist — AILawyer: https://ailawyer.lawyer/guides/inheritance-basics-eu.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-au.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-ca.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-cn.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-eu.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-uk.html
+- Rental deposit dispute: facts and evidence to preserve — AILawyer: https://ailawyer.lawyer/guides/security-deposit-refund-us.html
+- Small claims: prepare before choosing a court route — AILawyer: https://ailawyer.lawyer/guides/small-claims-court-au.html
+- Small claims: prepare before choosing a court route — AILawyer: https://ailawyer.lawyer/guides/small-claims-court-ca.html
+- Small claims: prepare before choosing a court route — AILawyer: https://ailawyer.lawyer/guides/small-claims-court-us.html
+- Small claims: prepare before choosing a court route — AILawyer: https://ailawyer.lawyer/guides/small-claims-procedure-eu.html
+- Traffic notice review: check the issuing authority first — AILawyer: https://ailawyer.lawyer/guides/traffic-fine-appeal-au.html
+- Traffic notice review: check the issuing authority first — AILawyer: https://ailawyer.lawyer/guides/traffic-fine-appeal-eu.html
+- Traffic notice review: check the issuing authority first — AILawyer: https://ailawyer.lawyer/guides/traffic-ticket-appeal-ca.html
+- Traffic notice review: check the issuing authority first — AILawyer: https://ailawyer.lawyer/guides/traffic-ticket-appeal-us.html
+- Traffic notice review: check the issuing authority first — AILawyer: https://ailawyer.lawyer/guides/traffic-ticket-pcn-appeal-uk.html
+- Dismissal and workplace dispute: an evidence-first guide — AILawyer: https://ailawyer.lawyer/guides/unfair-dismissal-employment-rights-ca.html
+- Dismissal and workplace dispute: an evidence-first guide — AILawyer: https://ailawyer.lawyer/guides/unfair-dismissal-employment-rights-eu.html
+- Dismissal and workplace dispute: an evidence-first guide — AILawyer: https://ailawyer.lawyer/guides/unfair-dismissal-employment-rights-uk.html
+- Dismissal and workplace dispute: an evidence-first guide — AILawyer: https://ailawyer.lawyer/guides/unfair-dismissal-employment-rights-us.html
+- Dismissal and workplace dispute: an evidence-first guide — AILawyer: https://ailawyer.lawyer/guides/unfair-dismissal-fair-work-au.html
+- Visa and immigration questions: verify the official route — AILawyer: https://ailawyer.lawyer/guides/visa-immigration-basics-au.html
+- Visa and immigration questions: verify the official route — AILawyer: https://ailawyer.lawyer/guides/visa-immigration-basics-ca.html
+- Visa and immigration questions: verify the official route — AILawyer: https://ailawyer.lawyer/guides/visa-immigration-basics-eu.html
+- Visa and immigration questions: verify the official route — AILawyer: https://ailawyer.lawyer/guides/visa-immigration-basics-us.html
+- Wills and inheritance: an evidence-first checklist — AILawyer: https://ailawyer.lawyer/guides/wills-inheritance-basics-au.html
+- Wills and inheritance: an evidence-first checklist — AILawyer: https://ailawyer.lawyer/guides/wills-inheritance-basics-ca.html
+- Wills and inheritance: an evidence-first checklist — AILawyer: https://ailawyer.lawyer/guides/wills-inheritance-basics-us.html
+- How it works — AILawyer: https://ailawyer.lawyer/how-it-works.html
+- Privacy — AILawyer: https://ailawyer.lawyer/privacy.html
+- AILawyer — 用大白话解答常见法律问题: https://ailawyer.lawyer/zh/
+- 免责声明 — AILawyer: https://ailawyer.lawyer/zh/disclaimer.html
+- 法律指南 — 覆盖 6 个法域的大白话解读 | AILawyer: https://ailawyer.lawyer/zh/guides/
+- 消费者退款与保修：安全的起点 — AILawyer: https://ailawyer.lawyer/zh/guides/consumer-refunds-warranties-ca.html
+- 消费者退款与保修：安全的起点 — AILawyer: https://ailawyer.lawyer/zh/guides/consumer-refunds-warranties-us.html
+- 离婚与子女安排：先整理什么 — AILawyer: https://ailawyer.lawyer/zh/guides/divorce-child-support-basics-ca.html
+- 离婚与子女安排：先整理什么 — AILawyer: https://ailawyer.lawyer/zh/guides/divorce-child-support-basics-us.html
+- 租房押金争议：应保留的事实与证据 — AILawyer: https://ailawyer.lawyer/zh/guides/security-deposit-refund-ca.html
+- 租房押金争议：应保留的事实与证据 — AILawyer: https://ailawyer.lawyer/zh/guides/security-deposit-refund-cn.html
+- 小额索赔：选择程序前先准备 — AILawyer: https://ailawyer.lawyer/zh/guides/small-claims-court-ca.html
+- 小额索赔：选择程序前先准备 — AILawyer: https://ailawyer.lawyer/zh/guides/small-claims-court-us.html
+- 交通罚单复核：先确认签发机构 — AILawyer: https://ailawyer.lawyer/zh/guides/traffic-ticket-appeal-ca.html
+- 交通罚单复核：先确认签发机构 — AILawyer: https://ailawyer.lawyer/zh/guides/traffic-ticket-appeal-us.html
+- 解雇与工作争议：证据优先指南 — AILawyer: https://ailawyer.lawyer/zh/guides/unfair-dismissal-employment-rights-ca.html
+- 解雇与工作争议：证据优先指南 — AILawyer: https://ailawyer.lawyer/zh/guides/unfair-dismissal-employment-rights-us.html
+- 签证与移民问题：核对官方入口 — AILawyer: https://ailawyer.lawyer/zh/guides/visa-immigration-basics-ca.html
+- 签证与移民问题：核对官方入口 — AILawyer: https://ailawyer.lawyer/zh/guides/visa-immigration-basics-us.html
+- 遗嘱与继承：先核对证据 — AILawyer: https://ailawyer.lawyer/zh/guides/wills-inheritance-basics-ca.html
+- 遗嘱与继承：先核对证据 — AILawyer: https://ailawyer.lawyer/zh/guides/wills-inheritance-basics-us.html
+- 工作原理 — AILawyer: https://ailawyer.lawyer/zh/how-it-works.html
+- 隐私 — AILawyer: https://ailawyer.lawyer/zh/privacy.html

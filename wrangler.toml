@@ -1,5 +1,17 @@
 name = "ailawyer-lawyer"
-compatibility_date = "2024-01-01"
+main = "src/worker.js"
+compatibility_date = "2026-07-31"
 
 [assets]
 directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "404-page"
+run_worker_first = true
+
+[[routes]]
+pattern = "ailawyer.lawyer"
+custom_domain = true
+
+[[routes]]
+pattern = "www.ailawyer.lawyer"
+custom_domain = true
