@@ -244,7 +244,15 @@ for (const fullPath of walkHtml(publicDir)) {
 
 console.log(JSON.stringify({ rewritten_guides: rewritten, html_pages_checked: walkHtml(publicDir).length }));
 
-const sitemap = fs.readFileSync(path.join(publicDir, 'sitemap.xml'), 'utf8');
+// R254（D1 运行时接入后）：public/sitemap.xml 与 public/llms.txt 已被
+// d1_runtime_scaffold.py 的 split_feeds 步骤改名为 *-base 正本——它们不再是
+// 构建产物，运行时由 Worker 用 *-base 正本 + D1 新文章现合成。这里改成兼容
+// 两种命名（新老站仓通用），且产出统一写回 llms-base.txt，不再生成
+// public/llms.txt（否则会重新变成构建产物，盖掉 Worker 合成的版本）。
+const sitemapPath = fs.existsSync(path.join(publicDir, 'sitemap-base.xml'))
+  ? path.join(publicDir, 'sitemap-base.xml')
+  : path.join(publicDir, 'sitemap.xml');
+const sitemap = fs.readFileSync(sitemapPath, 'utf8');
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
 const pageLines = urls.map((url) => {
   const pathname = new URL(url).pathname;
@@ -264,7 +272,10 @@ const llms = [
   '- Current rules must be verified with the responsible official body or a qualified local lawyer.', '',
   '## Public pages', ...pageLines, ''
 ].join('\n');
-fs.writeFileSync(path.join(publicDir, 'llms.txt'), llms);
+const llmsOutPath = fs.existsSync(path.join(publicDir, 'llms-base.txt'))
+  ? path.join(publicDir, 'llms-base.txt')
+  : path.join(publicDir, 'llms.txt');
+fs.writeFileSync(llmsOutPath, llms);
 
 function walkHtml(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
