@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "sanitize": "node scripts/sanitize-guides.mjs",
-    "build": "npm run sanitize && astro build && rm -rf dist/pagefind && pagefind --site dist",
+    "build": "npm run sanitize && astro build && rm -rf dist/pagefind && pagefind --site dist && node scripts/postbuild-d1-runtime.mjs",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
