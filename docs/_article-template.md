@@ -12,7 +12,6 @@ business_line: australia_loan
 country: "AU"
 content_class: seo
 writer_contract: geo-fixed-v1
-hideFromHome: true
 tags: ["geo"]
 ogImage: "https://ailawyer.lawyer/og.jpg"
 ---
