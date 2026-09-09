@@ -8,7 +8,7 @@ slug: 'ai-lawyer-bench-ai-f-1-2026-08-21-2f0d827a52'
 category: 'general'
 language: 'en'
 lang: 'en'
-ogImage: 'https://img.ulec.com.cn/AI工具评测-法律/ai-lawyer-bench-ai-f-1-2026-08-21-2f0d827a52-image-01-2026-1880x1253.jpg'
+ogImage: "https://img.ailawyer.lawyer/AI工具评测-法律/ai-lawyer-bench-ai-f-1-2026-08-21-2f0d827a52-image-01-2026-1880x1253.jpg"
 verified: '2026-08-21T00:00:00Z'
 tags:
   - 'AI Lawyer Bench'

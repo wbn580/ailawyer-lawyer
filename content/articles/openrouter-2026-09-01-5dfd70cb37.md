@@ -8,7 +8,7 @@ slug: 'openrouter-2026-09-01-5dfd70cb37'
 category: 'general'
 language: 'en'
 lang: 'en'
-ogImage: 'https://img.ulec.com.cn/AI工具评测-法律/openrouter-2026-09-01-5dfd70cb37-image-01-2026-1880x1253.jpg'
+ogImage: "https://img.ailawyer.lawyer/AI工具评测-法律/openrouter-2026-09-01-5dfd70cb37-image-01-2026-1880x1253.jpg"
 verified: '2026-09-01T00:00:00Z'
 tags:
   - 'OpenRouter'

@@ -8,7 +8,7 @@ slug: 'ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb'
 category: 'general'
 language: 'en'
 lang: 'en'
-ogImage: 'https://img.ulec.com.cn/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-01-2026-1880x1253.jpg'
+ogImage: "https://img.ailawyer.lawyer/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-01-2026-1880x1253.jpg"
 verified: '2026-08-22T00:00:00Z'
 tags:
   - 'AI legal models'
