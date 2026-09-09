@@ -22,7 +22,7 @@ AI Lawyer Bench evaluated five mainstream legal AI models on the same commercial
 ## Scoring criteria
 The evaluation used a standardized scoring system across the four dimensions. Each dimension was scored on a defined scale, with higher scores indicating better performance. The scores were aggregated to produce an overall ranking. The benchmark did not disclose the exact weights, but the scores were normalized so that a model receiving the maximum score in every dimension would achieve a perfect total.
 
-![Lawyer reviewing a contract on a laptop with AI interface](https://img.ulec.com.cn/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-01-2026-1880x1253.jpg)
+![Lawyer reviewing a contract on a laptop with AI interface](https://img.ailawyer.lawyer/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-01-2026-1880x1253.jpg)
 
 
 ## Results table
@@ -39,7 +39,7 @@ The evaluation used a standardized scoring system across the four dimensions. Ea
 ## Key observations
 GPT-4 and Claude performed best overall, each excelling in different areas. Claude scored highest on modification suggestions and had a strong balance across dimensions, while GPT-4 had a perfect score on missed clauses and risk identification but was slower in output speed. LegalBERT was the fastest but lagged in modification suggestions. ROSS Intelligence showed consistent mid-tier performance but was the slowest. LexisNexis AI ranked third overall, with strong missed clause detection but slightly lower risk identification.
 
-![Bar chart comparing performance of five legal AI models](https://img.ulec.com.cn/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-02-2026-1679x1300.jpg)
+![Bar chart comparing performance of five legal AI models](https://img.ailawyer.lawyer/AI工具评测-法律/ai-lawyer-bench-5-ai-gpt-4-claude-legalbert-2026-08-22-424b701ecb-image-02-2026-1679x1300.jpg)
 
 
 ## Selection advice by scenario

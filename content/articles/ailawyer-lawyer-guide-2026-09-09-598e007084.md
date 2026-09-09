@@ -26,7 +26,7 @@ The government has committed to strengthening the way federal agencies such as C
 
 The discussion paper highlighted potential regulatory measures that could be implemented, including evaluating the quality of data used to develop AI systems or requiring AI systems to meet certain transparency standards so that consumers and other stakeholders understand the algorithms and decisions behind them.
 
-![Australian Parliament House, where the proposed automated decision-making bill would be debated](https://img.ulec.com.cn/AI工具评测-法律/ailawyer-lawyer-guide-2026-09-09-598e007084-image-02-2026-1880x1253.jpg)
+![Australian Parliament House, where the proposed automated decision-making bill would be debated](https://img.ailawyer.lawyer/AI工具评测-法律/ailawyer-lawyer-guide-2026-09-09-598e007084-image-02-2026-1880x1253.jpg)
 
 
 These assurances could be developed by industry, government, or both, and could be voluntary or mandated by legislation. They could be managed internally or by third parties in the private or public sector.
@@ -37,7 +37,7 @@ In addition, the government plans to introduce a second round of privacy reforms
 
 The discussion paper noted that increased regulation could lead to higher regulatory burden and potentially stifle innovation or prevent Australia from accessing advanced AI technologies developed internationally. However, some Australian regulators are already collaborating on guidelines and sharing information about AI use in specific contexts. For example, the National AI Centre's Responsible AI Network, operated by CSIRO, focuses on research into responsible AI solutions for Australian industry.
 
-![Conceptual illustration of an automated decision-making system with human oversight](https://img.ulec.com.cn/AI工具评测-法律/ailawyer-lawyer-guide-2026-09-09-598e007084-image-03-2026-1880x1255.jpg)
+![Conceptual illustration of an automated decision-making system with human oversight](https://img.ailawyer.lawyer/AI工具评测-法律/ailawyer-lawyer-guide-2026-09-09-598e007084-image-03-2026-1880x1255.jpg)
 
 
 The paper also mentioned examples of AI applications that may be subject to such measures, including AI robots used in medical procedures and AI in safety-related car components or autonomous vehicles making real-time decisions.

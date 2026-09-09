@@ -23,7 +23,7 @@ OpenRouter is an open-source project that turns usage into a better model. By an
 
 This approach means that every interaction contributes to the model's development. As users use OpenRouter, the data gathered helps improve performance and accuracy over time.
 
-![OpenRouter open-source AI model interface](https://img.ulec.com.cn/AI工具评测-法律/openrouter-2026-09-01-5dfd70cb37-image-02-2026-1679x1300.jpg)
+![OpenRouter open-source AI model interface](https://img.ailawyer.lawyer/AI工具评测-法律/openrouter-2026-09-01-5dfd70cb37-image-02-2026-1679x1300.jpg)
 
 
 ## The open-source advantage

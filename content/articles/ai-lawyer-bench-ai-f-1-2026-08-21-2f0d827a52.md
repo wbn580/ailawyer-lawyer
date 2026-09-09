@@ -31,7 +31,7 @@ For contract review tasks, the key questions are: Does the tool flag risky terms
 
 For practitioners, the choice of a legal AI tool depends on the specific contract types you handle and the balance you prefer between thoroughness and precision. If missing a critical clause is a bigger concern than occasional false alarms, recall may weigh more in your decision. If you need to minimize time spent on irrelevant flags, accuracy and F1 become more important.
 
-![AI contract review tool analyzing a contract document](https://img.ulec.com.cn/AI工具评测-法律/ai-lawyer-bench-ai-f-1-2026-08-21-2f0d827a52-image-01-2026-1880x1253.jpg)
+![AI contract review tool analyzing a contract document](https://img.ailawyer.lawyer/AI工具评测-法律/ai-lawyer-bench-ai-f-1-2026-08-21-2f0d827a52-image-01-2026-1880x1253.jpg)
 
 
 The benchmark offers a data-driven starting point, but it does not replace your own testing on the contracts you actually work with. Use the results as a guide, then validate on your own documents.
