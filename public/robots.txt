@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-
 Sitemap: https://ailawyer.lawyer/sitemap-workbuddy.xml
 
-Sitemap: https://ailawyer.lawyer/sitemap-base.xml
+Sitemap: https://ailawyer.lawyer/sitemap.xml
