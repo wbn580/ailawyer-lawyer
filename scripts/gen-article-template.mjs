@@ -214,6 +214,24 @@ head = head.replace(
   "$1{{DATE}}{{CATEGORY_SUFFIX}}$2",
 );
 
+// ── 3.6 去掉参考页自己的 robots noindex/nofollow（2026-09-22） ──────
+// 参考页（常见 /articles/__d1_reference/）本身必须 noindex，但它的 <meta
+// name="robots"> 会被原样切进 HEAD，于是每篇 D1 动态文章都带 noindex
+// （实测 40 个仓中招，fangdai.help 19/36、waihui.help 10/10）。这里整条删掉
+// robots/googlebot/bingbot 等爬虫 meta 里含 noindex/nofollow 的标签；参考页
+// 自身在静态产物里不受影响，仍然 noindex。
+const ROBOTS_META_NAMES = new Set(["robots", "googlebot", "googlebot-news", "bingbot", "baiduspider"]);
+function stripRobotsNoindexMeta(str) {
+  return str.replace(/<meta\b[^>]*>/gi, (tag) => {
+    const name = (/\bname\s*=\s*(["'])([^"']+)\1/i.exec(tag)?.[2] || "").trim().toLowerCase();
+    if (!ROBOTS_META_NAMES.has(name)) return tag;
+    const content = /\bcontent\s*=\s*(["'])([^"']*)\1/i.exec(tag)?.[2] || "";
+    return /\b(?:noindex|nofollow|none)\b/i.test(content) ? "" : tag;
+  });
+}
+head = stripRobotsNoindexMeta(head); // 本版 tail 为 const；robots meta 只会在 <head> 里
+
+
 // ── 4. 验收（fail closed） ─────────────────────────────────────────
 for (const token of ["{{CANONICAL}}", "{{TITLE}}", "{{DESC}}"]) {
   if (!head.includes(token)) throw new Error(`占位符 ${token} 缺失——参考页可能已改版`);
@@ -226,6 +244,12 @@ if (REF_DATE_ISO && head.includes(REF_DATE_ISO)) {
 }
 if (!/\{\{DATE(_ISO(_FULL)?)?\}\}/.test(head)) {
   console.warn("⚠ 模板里没有任何日期占位符（参考页本身不展示日期），动态文章将不显示日期");
+}
+
+// robots 残留验收放在 fixed shell 还原之后，覆盖最终写出的内容。
+// 正文链接的 rel="nofollow" 合法，只查 robots 类 meta；noindex 则任何位置都不允许。
+if (/noindex/i.test(head + tail) || stripRobotsNoindexMeta(head + tail) !== head + tail) {
+  throw new Error("模板里仍残留 robots noindex/nofollow，所有 D1 文章会被排除索引");
 }
 
 mkdirSync("worker", { recursive: true });
